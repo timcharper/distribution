@@ -290,8 +290,8 @@ var CNNorth1 = Region{
 
 var Pithos = Region{
 	"myregion",
-	ServiceInfo{"http://localhost:8080", V2Signature},
-	"http://localhost:8080",
+	ServiceInfo{"http://pithos.marathon.mesos", V2Signature},
+	"http://pithos.marathon.mesos",
 	"",
 	true,
 	true,
